@@ -1,0 +1,30 @@
+.section-3{
+    .roadmap-section .container {
+        position: relative;
+        z-index: 30;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        padding-top: 2.5rem;
+        /* padding-bottom: 2.5rem; */
+    }
+    h2{ font-size: 100px!important;}
+    .glitch{
+      font-size: inherit;
+    }
+    h4{
+        font-family: Zelek;
+        font-size: 30px!important;
+    }
+    p{
+        font-family: Stone;
+        font-size: 20px!important;
+    }
+    .text-section{
+        padding: 100px 0;
+        .bloc{
+            padding: 20px 0;
+        }
+    }
+}
+
+    
