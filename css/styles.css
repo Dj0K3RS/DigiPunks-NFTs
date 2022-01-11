@@ -281,17 +281,25 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .Desktop-version {
-    display: none;
-  }
-
   .mobile-website {
     display: block !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-1 h1 {
+    padding: 50% 0 !important;
   }
 }
 .section-1 {
   position: relative;
   top: 36%;
+}
+.section-1 h1 {
+  padding: 20% 0 !important;
+  color: white;
+}
+.section-1 h1 span {
+  font-size: 20px !important;
 }
 
 .card {
@@ -372,6 +380,7 @@
 
 .section-2 h2 {
   font-size: 100px !important;
+  padding: 50px 0;
 }
 .section-2 .glitch {
   font-size: inherit;
@@ -397,6 +406,9 @@
   list-style-type: none;
 }
 
+.section-3 {
+  padding: 50px 0;
+}
 .section-3 .roadmap-section .container {
   position: relative;
   z-index: 30;
@@ -421,13 +433,58 @@
 }
 .section-3 .text-section {
   padding: 100px 0;
+  text-align: center;
 }
 .section-3 .text-section .bloc {
   padding: 20px 0;
 }
 
+footer {
+  background: #17141d;
+  padding: 20px;
+  color: white;
+  font-family: Zelek;
+}
+footer ul li {
+  list-style: none;
+  display: inline;
+  float: right;
+}
+footer ul li a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: #09fdf4;
+  text-shadow: 0 0 6px #09fdf4, 0px 0 12px #09fdf4, 0px 0 24px #09fdf4, 0px 0 48px #09fdf4;
+}
+
+.navbar {
+  background: #000000 !important;
+  font-family: zelek;
+}
+.navbar .navbar-brand {
+  font-family: cyberpunks;
+  font-size: 30px !important;
+}
+.navbar .navbar-collapse {
+  -webkit-box-flex: inherit !important;
+      -ms-flex-positive: inherit !important;
+          flex-grow: inherit !important;
+}
+.navbar a {
+  color: white !important;
+}
+.navbar a:hover {
+  color: #09fdf4;
+  text-shadow: 0 0 6px #09fdf4, 0px 0 12px #09fdf4, 0px 0 24px #09fdf4, 0px 0 48px #09fdf4;
+}
+.navbar .disabled {
+  cursor: not-allowed;
+}
+
 .mobile-website {
-  display: none;
   /* HTML5 display-role reset for older browsers */
   /*glitch*/
 }

@@ -1,0 +1,23 @@
+.navbar{
+    background:#000000!important;
+   
+    font-family: zelek;
+    .navbar-brand{
+        font-family: cyberpunks;
+        font-size: 30px!important;
+    }
+    .navbar-collapse {
+      
+        flex-grow: inherit!important;
+    }
+    a{
+        color:white!important;
+    }
+    a:hover{
+        color: #09fdf4;
+    text-shadow: 0 0 6px #09fdf4, 0px 0 12px #09fdf4, 0px 0 24px #09fdf4, 0px 0 48px #09fdf4;
+    }
+    .disabled{
+        cursor: not-allowed;
+    }
+}

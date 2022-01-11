@@ -271,10 +271,14 @@ h2{
 }
 
 @media screen and (max-width: 1024px) {
-.Desktop-version {
-  display: none;
-}
+
 .mobile-website{
   display: block!important;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .section-1 h1 {
+    padding:50% 0!important;
 }
 }
