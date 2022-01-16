@@ -7,6 +7,19 @@
  * @author      BESSROUR Ahmed (ahmed.bessrour@gmail.com)
  */
 /*==== Reset=================*/
+body {
+  color: white;
+  background-image: url("https://www.animetas.io/static/media/animeta-background-space-world.9fa02725.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2, h3, h4 {
+  color: inherit;
+}
+
 .Desktop-version {
   /*glitch*/
 }
@@ -286,6 +299,10 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .section-1 {
+    height: inherit !important;
+  }
+
   .section-1 h1 {
     padding: 50% 0 !important;
   }
@@ -302,6 +319,14 @@
   font-size: 20px !important;
 }
 
+@media screen and (min-width: 768px) {
+  .section-1 {
+    height: inherit !important;
+  }
+  .section-1 h1 {
+    height: inherit !important;
+  }
+}
 .card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -416,9 +441,6 @@
   margin-bottom: 5rem;
   padding-top: 2.5rem;
   /* padding-bottom: 2.5rem; */
-}
-.section-3 h2 {
-  font-size: 100px !important;
 }
 .section-3 .glitch {
   font-size: inherit;
